@@ -1,0 +1,47 @@
+# 编译产物
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+*.test
+*.out
+
+# Go 工作空间文件
+go.work
+
+# 依赖管理
+vendor/
+
+# 日志文件
+logs/
+*.log
+
+# 配置文件（可能包含敏感信息）
+config/config.local.yaml
+.env
+.env.local
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 覆盖率报告
+coverage.txt
+coverage.html
+
+# Proto 生成的文件
+*.pb.go
+
